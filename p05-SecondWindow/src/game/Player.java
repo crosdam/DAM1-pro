@@ -112,15 +112,9 @@ public class Player {
   public boolean isEmpty(String data2)
   {
     for (int i = 0; i < data2.length(); i++)
-    {
       if (data2.charAt(i) != ' ')
-      {
         return false;
-      }
-      else
-      {
-        return true;
-      }
-    }
+
+    return true;
   }
 }
